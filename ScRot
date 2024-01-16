@@ -11,7 +11,7 @@ function GonWebhook(DeExp)
     local script = [[
     $webHookUrl = "]]..WebhookUrl..[["
     $thumbnailObject = [PSCustomObject]@{
-    url = "https://cdn.discordapp.com/emojis/1016295109970645022.gif?size=80&quality=lossless"
+    url = "https://cdn.discordapp.com/attachments/924776096799547434/1196889665605734460/Bigos.Rot_V1.png?ex=65b9455d&is=65a6d05d&hm=5254ecc42f3eb534e595a831149eee81b64c346c44b312a20ff71e004b50947a&"
     }
     $color = Get-Random -Minimum 0 -Maximum 16777215
     $title = 'DeExp - Rotation'
